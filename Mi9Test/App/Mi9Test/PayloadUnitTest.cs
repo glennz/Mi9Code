@@ -66,18 +66,30 @@
         [TestMethod]
         public void ShouldFilterPayloadDataAndReturnErrorMessage()
         {
+            var dataProvider = new DataProvider();
+            var o = dataProvider.PayloadData();
+            var r = dataProvider.PayloadResponseData();
+
             var m = new Mock<IDataService>();
-            m.Setup(mock => mock.FilterPayload(null)).Returns((IEnumerable<PayloadItemShortDto>)null);
+            m.Setup(mock => mock.FilterPayload(o)).Returns(r.Response);
+            m.Setup(mock => mock.ValidatePayload(o)).Returns(true);
 
             var controller = new PayloadController(m.Object);
-            var response = controller.FilterPayload(null);
+            var response = controller.FilterPayload(o);
 
-            var result = response as NegotiatedContentResult<ErrorMessageDto>;
+            var result = response as OkNegotiatedContentResult<PayloadResponseDto>;
 
             Assert.IsNotNull(result);
             Assert.IsNotNull(result.Content);
-            Assert.IsTrue(result.StatusCode == HttpStatusCode.BadRequest);
-            Assert.IsTrue(result.Content.Error == "Could not decode request: JSON parsing failed");
+            var a = r.Response.ToList();
+            var b = result.Content.Response.ToList();
+
+            for (var i = 0; i < 7; i++)
+            {
+                Assert.IsTrue(a[i].Image == b[i].Image, string.Format("fail at {0}", i));
+                Assert.IsTrue(a[i].Slug == b[i].Slug, string.Format("fail at {0}", i));
+                Assert.IsTrue(a[i].Title == b[i].Title, string.Format("fail at {0}", i));
+            }
         }
     }
 }
