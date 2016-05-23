@@ -13,6 +13,7 @@ Backend architechture:
 
  WebApi <- Service layer / Dto
 
-Be aware that I keep all dlls and packages upload to github. This save time by avoiding reinstallation of nuget packages. It makes reviewer easier to review the test.
+Be aware that I keep all dlls and packages upload to github. This saves time by avoiding reinstallation of nuget packages. It makes reviewer easier to review the test.
 
-Therefore, .ignore file is not provided the full filter of the nuget packages.
+
+Therefore, .ignore file is not provided.
