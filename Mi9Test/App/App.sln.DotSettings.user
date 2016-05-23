@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Test Projects\FlightManager\App\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=220E103A6D6E4072B5026F0FFBF11F58/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=220E103A6D6E4072B5026F0FFBF11F58/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=220E103A6D6E4072B5026F0FFBF11F58/Name/@EntryValue">All tests from CurrencyToWords.Tests</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=220E103A6D6E4072B5026F0FFBF11F58/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;/Session&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=447F767E04784427BDA370F2F657A8BA/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=447F767E04784427BDA370F2F657A8BA/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=447F767E04784427BDA370F2F657A8BA/Name/@EntryValue">RepoUnitTestWithMock</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=447F767E04784427BDA370F2F657A8BA/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;/Session&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=933A2D908D3D4ED1B58EFB6626A4DA0C/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=933A2D908D3D4ED1B58EFB6626A4DA0C/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=933A2D908D3D4ED1B58EFB6626A4DA0C/Name/@EntryValue">TestMethod1</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=933A2D908D3D4ED1B58EFB6626A4DA0C/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="Mi9Test.PayloadUnitTest" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadUnitTest.ShouldLoadPayloadDataFromJsonFile" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadUnitTest.ShouldLoadPayloadResultDataFromJson" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadUnitTest.ShouldFilterPayloadData" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadIntegrationTest" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadIntegrationTest.ShouldThrowError" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;e Id="Mi9Test.PayloadUnitTest.ShouldFilterPayloadDataAndReturnErrorMessage" Project="E3FC97AE-DA0E-4115-BC7F-DE67ECBB77B7" Provider="MSTest" /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B853523B231C42DD92AAF558E2D9698C/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B853523B231C42DD92AAF558E2D9698C/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B853523B231C42DD92AAF558E2D9698C/Name/@EntryValue">CurencyToWordsTest</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B853523B231C42DD92AAF558E2D9698C/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>
